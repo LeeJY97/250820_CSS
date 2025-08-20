@@ -24,6 +24,13 @@
       .grandchild {
         color: red;
       }
+      .ancestor-box {
+        border: 2px solid orange;
+        padding: 10px;
+      }
+      .child-box {
+        border: 2px solid blue;
+      }
     </style>
   </head>
   <body>
@@ -42,6 +49,19 @@
         자식 div (.child)
         <div class="grandchild">손자 div (.grandchild)</div>
       </div>
+    </div>
+
+    <!-- div.ancestor-box{border 속성은 상속되지 않음}>div.child-box{자식 div엔 border 없음} -->
+    <div class="ancestor-box">
+      border 속성은 상속되지 않음
+      <div class="child-box">자식 div엔 border 없음</div>
+    </div>
+
+    <div class="sizes">
+      <p class="px">px 절대크기</p>
+      <p class="em">em 상대크기</p>
+      <p class="rem">rem html기준</p>
+      <p class="percent">% 부모대비</p>
     </div>
   </body>
 </html>
