@@ -1,0 +1,150 @@
+/* 기본 설정 및 폰트 */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 레이아웃 컨테이너 */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 헤더 스타일 */
+.header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-title {
+    font-size: 2.8em;
+    font-weight: 700;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.subtitle {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+/* 프로필 섹션 */
+.profile-section {
+    padding: 40px 0;
+}
+
+.profile-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.profile-image-container {
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #4CAF50;
+    object-fit: cover;
+}
+
+.profile-text h2 {
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+.profile-text p {
+    color: #666;
+}
+
+.links {
+    margin-top: 25px;
+}
+
+.link-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+}
+
+.link-button:hover {
+    background-color: #45a049;
+}
+
+.link-button .icon {
+    margin-right: 8px;
+}
+
+/* 기술 스택 섹션 */
+.skills-section {
+    padding: 40px 0;
+}
+
+.section-title {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.skill-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+.skill-title {
+    color: #4CAF50;
+    font-size: 1.4em;
+    margin-top: 0;
+}
+
+.skill-description {
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* 푸터 */
+.footer-section {
+    text-align: center;
+    padding: 30px 0;
+    color: #aaa;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 40px;
+}
